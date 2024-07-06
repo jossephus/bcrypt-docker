@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build . -t docker-bcrypt
+docker run docker-bcrypt
